@@ -7,9 +7,21 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "SecondViewController.h"
 
-@interface ViewController : UIViewController
 
+@interface ViewController : UIViewController<UITableViewDelegate, UITableViewDataSource, AdditionalClassDelegate>{
+    
+}
+
+//-(void) passTwoNumber:(int) one withAnother:(int) two;
+//-(void) computeAddition;
+
+
+@property (weak,nonatomic) NSString *transData;
+@property (weak, nonatomic) IBOutlet UITableView *tableView;
 
 @end
+
+
 

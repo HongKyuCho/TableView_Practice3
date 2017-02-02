@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		13C55E5E1E40471A00031BF1 /* apple2.png in Resources */ = {isa = PBXBuildFile; fileRef = 13C55E5D1E40471A00031BF1 /* apple2.png */; };
+		13C55E621E404C8400031BF1 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13C55E611E404C8400031BF1 /* TableViewCell.xib */; };
+		13C55E651E404DE400031BF1 /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 13C55E641E404DE400031BF1 /* TableViewCell.m */; };
+		13C55E691E405C3300031BF1 /* apple.png in Resources */ = {isa = PBXBuildFile; fileRef = 13C55E681E405C3300031BF1 /* apple.png */; };
 		3FCBCB061E372BF700804010 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FCBCB051E372BF700804010 /* main.m */; };
 		3FCBCB091E372BF700804010 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FCBCB081E372BF700804010 /* AppDelegate.m */; };
 		3FCBCB0C1E372BF700804010 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FCBCB0B1E372BF700804010 /* ViewController.m */; };
@@ -15,6 +19,7 @@
 		3FCBCB141E372BF700804010 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FCBCB121E372BF700804010 /* LaunchScreen.storyboard */; };
 		3FCBCB1F1E372BF700804010 /* TableView_Practice3Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FCBCB1E1E372BF700804010 /* TableView_Practice3Tests.m */; };
 		3FCBCB2A1E372BF700804010 /* TableView_Practice3UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FCBCB291E372BF700804010 /* TableView_Practice3UITests.m */; };
+		636C29031E396AA900B5D343 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 636C29021E396AA900B5D343 /* SecondViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +40,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		13C55E5D1E40471A00031BF1 /* apple2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = apple2.png; sourceTree = "<group>"; };
+		13C55E611E404C8400031BF1 /* TableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
+		13C55E631E404DE400031BF1 /* TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
+		13C55E641E404DE400031BF1 /* TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
+		13C55E681E405C3300031BF1 /* apple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = apple.png; path = ../../../Desktop/apple.png; sourceTree = "<group>"; };
 		3FCBCB011E372BF700804010 /* TableView_Practice3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableView_Practice3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FCBCB051E372BF700804010 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3FCBCB071E372BF700804010 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +61,8 @@
 		3FCBCB251E372BF700804010 /* TableView_Practice3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableView_Practice3UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FCBCB291E372BF700804010 /* TableView_Practice3UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableView_Practice3UITests.m; sourceTree = "<group>"; };
 		3FCBCB2B1E372BF700804010 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		636C29011E396AA900B5D343 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		636C29021E396AA900B5D343 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,8 +120,15 @@
 				3FCBCB0D1E372BF700804010 /* Main.storyboard */,
 				3FCBCB101E372BF700804010 /* Assets.xcassets */,
 				3FCBCB121E372BF700804010 /* LaunchScreen.storyboard */,
+				13C55E681E405C3300031BF1 /* apple.png */,
 				3FCBCB151E372BF700804010 /* Info.plist */,
+				13C55E5D1E40471A00031BF1 /* apple2.png */,
 				3FCBCB041E372BF700804010 /* Supporting Files */,
+				636C29011E396AA900B5D343 /* SecondViewController.h */,
+				636C29021E396AA900B5D343 /* SecondViewController.m */,
+				13C55E611E404C8400031BF1 /* TableViewCell.xib */,
+				13C55E631E404DE400031BF1 /* TableViewCell.h */,
+				13C55E641E404DE400031BF1 /* TableViewCell.m */,
 			);
 			path = TableView_Practice3;
 			sourceTree = "<group>";
@@ -247,7 +266,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				3FCBCB141E372BF700804010 /* LaunchScreen.storyboard in Resources */,
+				13C55E621E404C8400031BF1 /* TableViewCell.xib in Resources */,
 				3FCBCB111E372BF700804010 /* Assets.xcassets in Resources */,
+				13C55E5E1E40471A00031BF1 /* apple2.png in Resources */,
+				13C55E691E405C3300031BF1 /* apple.png in Resources */,
 				3FCBCB0F1E372BF700804010 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -273,8 +295,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				636C29031E396AA900B5D343 /* SecondViewController.m in Sources */,
 				3FCBCB0C1E372BF700804010 /* ViewController.m in Sources */,
 				3FCBCB091E372BF700804010 /* AppDelegate.m in Sources */,
+				13C55E651E404DE400031BF1 /* TableViewCell.m in Sources */,
 				3FCBCB061E372BF700804010 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -505,6 +529,7 @@
 				3FCBCB301E372BF700804010 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3FCBCB311E372BF700804010 /* Build configuration list for PBXNativeTarget "TableView_Practice3Tests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +538,7 @@
 				3FCBCB331E372BF700804010 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3FCBCB341E372BF700804010 /* Build configuration list for PBXNativeTarget "TableView_Practice3UITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +547,7 @@
 				3FCBCB361E372BF700804010 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
